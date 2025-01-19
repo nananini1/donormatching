@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(214, 200, 181);
+  }
+  
+  p {
+    color: rgb(75, 74, 74);
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 12px 15px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    width: 90%;
+    max-width: 200px;
+    background-color: rgb(45, 135, 117);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form button:hover {
+    background-color: rgb(35, 115, 97);
+  }
+  
+  #results h4 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  #results ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  #results {
+    margin-top: 20px; /* Space above the results */
+    margin-bottom: 40px; /* Space below the results */
+    padding: 20px; /* Add some padding inside the results container */
+    background-color: #f9f9f93a; /* Light background for visibility */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  #results h4 {
+    margin-bottom: 10px; /* Space below the headings */
+  }
+  
+  #results p {
+    line-height: 1.6; /* Increase line spacing for better readability */
+  }
+  .imagee img {
+    max-width: 300px; /* Adjust size to fit the layout */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px; /* Add space between image and form */
+  }
+  

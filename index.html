@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donor Matching</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h3>Find Your Perfect Kidney Donor!</h3>
+      <br><br>
+      <div class="imagee">
+        <img src="images/myimage.jpg" alt="Kidney Donor Matching" />
+      </div>
+      <div class="form">
+        <form id="recipientForm">
+          <p>Biological Gender:</p>
+          <label for="female">
+            <input type="radio" id="female" name="gender" value="female"> Female
+          </label>
+          <label for="male">
+            <input type="radio" id="male" name="gender" value="male"> Male
+          </label>
+          <br><br>
+          <input type="number" id="age" name="age" min="0" placeholder="Enter your age">
+          <br><br>
+          <input type="number" id="BMI" name="BMI" placeholder="Enter your BMI" min="18" step="0.1">
+          <br><br>
+          <button type="submit">Find Match</button>
+        </form>
+      </div>
+      <div id="results" style="margin-top: 20px;"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
